@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="57.332137">
+<testcase classname="Login functionality" name="Login with valid data" time="57.33124">
+<system-out><![CDATA[Given user opens newtours application on chrome browser.....................passed
+When user enters "mercury" in username and password field...................passed
+And Click on Signin Button..................................................passed
+Then verify login result as success.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Calculator functionality" name="Test Add function" time="0.000897">
+<system-out><![CDATA[When user enters 1..........................................................passed
+And user enters plus........................................................passed
+When user enters second value as 2..........................................passed
+Then user press equal.......................................................passed
+And validate output as 3....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
